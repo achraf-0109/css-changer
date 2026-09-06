@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Css Changer</title>
+</head>
+<body>
+        <div class="container">
+                <h1>
+                        Changer the CSS of below image! With the help
+                        of the Sliders
+                </h1>
+
+                <h1 id="js">JavaScript</h1>
+
+                <div class="sliders">
+                        <label for="color-picker">Base Color</label><br>
+                        <input type="color"
+                                id="color-picker"
+                                value="#ff0000"><br>
+
+                        <label for="width-range">Width:</label><br>
+                        <input type="range"
+                                min="100"
+                                max="500"
+                                value="200"
+                                id="width-range"><br>
+                        <label for="border-radius-range">Border Radius:</label><br>
+                        <input type="range"
+                                min="0"
+                                max="10"
+                                value="5"
+                                id="border-radius-range"><br>
+                        <label for="padding-range">Padding:</label><br>
+                        <input type="range"
+                                min="0"
+                                max="20"
+                                id="padding-range"><br>
+                        <label for="blur-range">Blur:</label><br>
+                        <input type="range"
+                                id="blur-range"><br>
+                </div>
+
+                <img src="assets/image.png" 
+                alt="Bird"
+                width="400"
+                height="300">
+
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
