@@ -57,6 +57,8 @@ css-changer/
 ├── index.html      # Markup for sliders and preview box
 ├── style.css       # Base styling
 ├── script.js       # Slider logic + dynamic CSS updates
+├── assets          # Assets if the project
+   ├── image.png    # Slider logic + dynamic CSS updates
 └── README.md        # You're here!
 ```
 
@@ -65,9 +67,9 @@ css-changer/
 Each slider is an `<input type="range">` element. JavaScript listens for the `input` event on every slider, reads its current value, and updates the corresponding CSS property on the preview box using `element.style.property`.
 
 ```js
-widthSlider.addEventListener("input", (e) => {
-  preview.style.width = `${e.target.value}px`;
-});
+widthSlider.oninput = () => {
+  preview.style.width = `${widthSlider.value}px`;
+};
 ```
 
 The same pattern repeats for height, blur, padding, and border-radius — making it a great mini case study in connecting user input to dynamic styling.
