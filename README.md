@@ -1,6 +1,6 @@
 # 🎨 CSS Changer
 
-A fun, hands-on playground for learning HTML, CSS, and JavaScript by **visually tweaking CSS properties in real time** using sliders. Instead of memorizing values, drag a slider and instantly see how `width`, `height`, `blur`, `padding`, and `border-radius` affect an element.
+A fun, hands-on playground for learning HTML, CSS, and JavaScript by **visually tweaking CSS properties in real time** using sliders. Instead of memorizing values, drag a slider and instantly see how `width`, `height`, `blur`, `padding`, and `border-radius` affect an image.
 
 ## ✨ Features
 
@@ -57,8 +57,8 @@ css-changer/
 ├── index.html      # Markup for sliders and preview box
 ├── style.css       # Base styling
 ├── script.js       # Slider logic + dynamic CSS updates
-├── assets          # Assets if the project
-   ├── image.png    # Slider logic + dynamic CSS updates
+├── assets          # Assets of the project
+   ├── image.png    # Target Image
 └── README.md        # You're here!
 ```
 
